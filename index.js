@@ -50,7 +50,7 @@ const reaction = async (uId, oId, rId) => {
       topic: 'reactions',
       messages: [ 
 	{ 
-	  'value': `{"userId": "${uId}", "objectId": "${oId}", "reaction": "${rId }"}` 
+	  'value': `{"userId": "${uId}", "objectId": "${oId}", "reactionId": "${rId }"}` 
   	} 
       ],
     })
