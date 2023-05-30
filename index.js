@@ -57,7 +57,7 @@ const reaction = async (uId, oId, rId) => {
    await producer.disconnect()
 }
 
-app.get('/reaction', (req, res, next) => {
+app.get('/reactions', (req, res, next) => {
   const uId = req.query.userId;
   const oId = req.query.objectId;
   const rId = req.query.reactionId;
